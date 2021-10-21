@@ -1,0 +1,15 @@
+DROP SCHEMA IF EXISTS `bookShop` ;
+
+CREATE SCHEMA IF NOT EXISTS `bookShop` DEFAULT CHARACTER SET utf8 ;
+USE `bookShop` ;
+
+DROP TABLE IF EXISTS `bookShop`.`Employee` ;
+
+CREATE TABLE IF NOT EXISTS `bookShop`.`Employee` (
+  `CompanyName` VARCHAR(45) NOT NULL,
+  `Address` VARCHAR(45) NOT NULL,
+  `TotalEmployee` INT NOT NULL,
+  `WebSite` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`WebSite`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1;
