@@ -1,5 +1,5 @@
 package com.company;
-// memorizzare in oggetti classi, usare printmaina printbook .... ,separa la classe connection dal resto.
+// store info into class objects, use printmain, printbook instead MESS[] .... , create a class to connect to DB.
 import java.sql.*;
 import java.util.*;
 
